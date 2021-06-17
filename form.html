@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e15e8c34af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>La Cocina de Juan</title>
+</head>
+
+<body>
+    <header>
+        <div id="encabezado"></div>
+        <script src="JS/header.js"></script>
+ 
+    </header>
+    <main>
+        <h2>Formulario de registro</h2>
+        <form>
+            <label for="firstname">Nombre: </label><input type="text" name="firstname" id="firstname"  placeholder="Ingrese su nombre aqui..."> 
+            <label for="lastname">Apellido:</label><input type="text" name="lastname"  id="lastname"   placeholder="Ingrese su apellido aqui..."> 
+            <p>Direccion:</p>
+            <label for="street">Calle:</label><input type="text"  name="street"   id="street"    placeholder="Ingrese su calle aqui...">
+            <label for="number">Numero:</label><input type="number"   name="number"    id="number"     placeholder="Ingrese el numero..">   
+            <label for="city">Ciudad:</label>           <input type="text"     name="city"      id="city"     value="C.A.B.A."> 
+            <label for="zipcode">Código Postal:</label> <input type="text"     name="zipcode"   id="zipcode"  placeholder="Ingrese su codigo postal aqui..."> <br><br>
+            <label for="telefono">Telefono:</label>     <input type="tel"      name="telefono"  id="telefono" placeholder="ingrese su telefono aqui ...."> 
+            <label for="BirthDate">Fecha Nac.:</label>  <input type="date"     name="birthdate" id="birthdate" > 
+            <label for="mail">Mail: </label>            <input type="email"    name="mail"      id="mail"      >   
+            <label for="clave">Clave: </label>          <input type="password" name="clave"     id="clave"     > 
+            <label for="url">Link del TP 3: </label>    <input type="url"      name="url"       id="url"       > <br><br>
+
+            <label for="gender">Genero: (Radio)</label> 
+                <input type="radio" name="gender" value="Hombre" id="hombre" checked>Hombre
+                <input type="radio" name="gender" value="Mujer"  id="mujer" >Mujer
+                <input type="radio" name="gender" value="Otro"   id="otro"  >Otro
+                <input type="radio" name="gender" value="prueba" id="prueba"> <br><br>
+            <label for="conocimientos"></label>Conocimientos previos: (checkbox)
+                <input type="checkbox" name="conocimientos" value="HTML"> HTML
+                <input type="checkbox" name="conocimientos" value="CSS"> CSS
+                <input type="checkbox" name="conocimientos" value="BOOTSTRAP"> Bootstrap
+                <input type="checkbox" name="conocimientos" value="Javascript"> Javascript
+                <input type="checkbox" name="conocimientos" value="Typescript"> Typescript
+                <input type="checkbox" name="conocimientos" value="Angular"> Angular
+                <input type="checkbox" name="conocimientos" value="BaseDeDatos"> Base de Datos
+                <input type="checkbox" name="conocimientos" value="Python"> Python
+                <input type="checkbox" name="conocimientos" value="Django"> Django <br><br>
+        
+            <label for="estudios">Estudios: (Select)</label>
+            <select id="estudios" name="estudios">
+                <option value="primaria">Primaria</option>
+                <option value="secundaria">Secundaria</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+            <br><br>
+            <label for="comentarios">Comentarios:</label> 
+            <br>
+            <textarea name="comentarios" rows="3" cols="30"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <div id="piepagina"></div>
+        <script src="JS/footer.js"></script>
+    </footer>
+</body>
+</html>

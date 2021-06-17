@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Receta</h1>
+    <form action="show_data.html" target="_blank">
+        <label for="receta">Receta:</label> <input type="text" name="receta" id="receta"><br>
+        <label for="preparacion">Preparacion</label><br><textarea name="preparacion" rows="10" cols="30"></textarea>
+        <br>
+        <label for="email">email:</label> <input type="email" name="email" id="email"><br>
+        <label for="fecha">fecha de la receta:</label> <input type="date" name="fecha" id="fecha"><br>
+        <label for="tiporeceta">Tipo de receta:</label>
+        <select id="tiporeceta" name="tiporeceta">
+            <option value="nada">Seleccione una opcion</option>
+            <option value="dulce">Dulce</option>
+            <option value="Salada">Salada</option>
+        </select>
+        <br>
+
+
+        <input type="submit" value="Enviar"><br>
+        <button type="reset">Reset</button><br>
+    </form>
+</body>
+
+</html>
